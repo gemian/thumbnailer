@@ -20,7 +20,7 @@
 
 #include "dbus_connection.h"
 
-#include <unity/util/DefinesPtrs.h>
+#include <internal/DefinesPtrs.h>
 
 #include <QStringList>
 

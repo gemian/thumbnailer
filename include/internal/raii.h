@@ -18,7 +18,7 @@
 
 #pragma once
 
-#include <unity/util/ResourcePtr.h>
+#include "ResourcePtr.h"
 
 #include <string>
 

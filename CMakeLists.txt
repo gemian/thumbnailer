@@ -119,7 +119,7 @@ endif()
 include(CTest)
 enable_testing()
 
-include(EnableCoverageReport)
+find_package(CoverageReport)
 
 include(cmake/UseGSettings.cmake)
 
@@ -139,7 +139,6 @@ pkg_check_modules(GST_DEPS REQUIRED gstreamer-1.0 gstreamer-plugins-base-1.0 gst
 pkg_check_modules(GOBJ_DEPS REQUIRED gobject-2.0)
 pkg_check_modules(GIO_DEPS REQUIRED gio-2.0 gio-unix-2.0)
 pkg_check_modules(IMG_DEPS REQUIRED gdk-pixbuf-2.0 libexif)
-pkg_check_modules(UNITY_API_DEPS REQUIRED libunity-api)
 pkg_check_modules(APPARMOR_DEPS REQUIRED libapparmor)
 pkg_check_modules(TAGLIB_DEPS REQUIRED taglib)
 pkg_check_modules(CACHE_DEPS REQUIRED libpersistent-cache-cpp)

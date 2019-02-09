@@ -18,7 +18,7 @@
 
 #include <internal/file_lock.h>
 
-#include <unity/UnityExceptions.h>
+#include <internal/UnityExceptions.h>
 
 #include <thread>
 

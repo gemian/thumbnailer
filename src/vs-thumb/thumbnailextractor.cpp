@@ -20,7 +20,7 @@
 #include "thumbnailextractor.h"
 
 #include <QDebug>
-#include <unity/util/ResourcePtr.h>
+#include <internal/ResourcePtr.h>
 
 #include <cstring>
 #include <stdexcept>

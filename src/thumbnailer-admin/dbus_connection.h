@@ -22,7 +22,7 @@
 #include "admininterface.h"
 
 #include <QDBusConnection>
-#include <unity/util/DefinesPtrs.h>
+#include <internal/DefinesPtrs.h>
 
 namespace unity
 {

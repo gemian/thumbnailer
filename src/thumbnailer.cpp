@@ -35,7 +35,7 @@
 #include <internal/version.h>
 
 #include <boost/filesystem.hpp>
-#include <unity/UnityExceptions.h>
+#include <internal/UnityExceptions.h>
 
 #include <fcntl.h>
 #include <sys/stat.h>

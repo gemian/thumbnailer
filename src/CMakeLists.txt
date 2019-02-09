@@ -32,6 +32,8 @@ add_library(thumbnailer-static STATIC
     thumbnailer.cpp
     ubuntuserverdownloader.cpp
     version.cpp
+    Exception.cpp
+    UnityExceptions.cpp
     ${CMAKE_SOURCE_DIR}/include/internal/artdownloader.h
     ${CMAKE_SOURCE_DIR}/include/internal/artreply.h
     ${CMAKE_SOURCE_DIR}/include/internal/imageextractor.h
